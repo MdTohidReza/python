@@ -50,7 +50,24 @@
 # 12
 # 123
 
+# words= "hello world"
+# for char in words:
+#     print(char)
 
-words= "hello world"
-for char in words:
-    print(char)
+# using for loop
+rows = 4
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()
+    
+# using while loop
+rows = 44
+i = 1
+while i <= rows:
+    j = 1
+    while j <= i:
+        print(j, end="")
+        j += 1
+    print()
+    i += 1
